@@ -1,0 +1,43 @@
+# ===== Python cache =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Virtual environment =====
+venv/
+.env/
+.venv/
+
+# ===== PyCharm / IDE =====
+.idea/
+*.iml
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Environment variables =====
+.env
+.env.*
+
+# ===== Build / dist =====
+build/
+dist/
+*.egg-info/
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+
+# ===== Coverage =====
+.coverage
+htmlcov/
+
+# ===== Mypy / pytest cache =====
+.mypy_cache/
+.pytest_cache/
+
+# ===== SQLite (если есть локальная БД) =====
+*.sqlite3
